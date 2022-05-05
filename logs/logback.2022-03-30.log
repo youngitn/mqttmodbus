@@ -1,0 +1,7 @@
+11:01:56.697 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.32 is  timeout
+11:01:56.698 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: connect timed out
+12:01:24.734 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.31 is  timeout
+12:01:24.738 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.ConnectException: Connection refused: connect
+12:02:10.960 default [main] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.31
+12:02:10.979 default [main] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.31[Z@4d339552
+12:02:10.980 default [main] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000

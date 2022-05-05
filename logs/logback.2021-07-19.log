@@ -1,0 +1,896 @@
+10:57:16.247 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.31 is  timeout
+10:57:16.247 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+10:57:17.422 default [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.AssertionError: Dispatch queue 'mqtt client' was not executing, (currently executing: '<not-dispatched>')
+	at org.fusesource.hawtdispatch.internal.SerialDispatchQueue.assertExecuting(SerialDispatchQueue.java:145)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:623)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:619)
+	at com.evolutivelabs.mqttmodbus.mqtt.CallBackClient.push(CallBackClient.java:55)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker.checkRecords(RecordChecker.java:108)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$FastClassBySpringCGLIB$$d691dd81.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$EnhancerBySpringCGLIB$$f2e0ca3b.checkRecords(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+10:57:22.257 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.32 is  timeout
+10:57:22.258 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+10:57:25.389 default [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.AssertionError: Dispatch queue 'mqtt client' was not executing, (currently executing: '<not-dispatched>')
+	at org.fusesource.hawtdispatch.internal.SerialDispatchQueue.assertExecuting(SerialDispatchQueue.java:145)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:623)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:619)
+	at com.evolutivelabs.mqttmodbus.mqtt.CallBackClient.push(CallBackClient.java:55)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker.checkRecords(RecordChecker.java:108)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$FastClassBySpringCGLIB$$d691dd81.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$EnhancerBySpringCGLIB$$f2e0ca3b.checkRecords(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+10:57:28.286 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.31 is  timeout
+10:57:28.286 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+10:57:33.425 default [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.AssertionError: Dispatch queue 'mqtt client' was not executing, (currently executing: '<not-dispatched>')
+	at org.fusesource.hawtdispatch.internal.SerialDispatchQueue.assertExecuting(SerialDispatchQueue.java:145)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:623)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:619)
+	at com.evolutivelabs.mqttmodbus.mqtt.CallBackClient.push(CallBackClient.java:55)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker.checkRecords(RecordChecker.java:108)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$FastClassBySpringCGLIB$$d691dd81.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$EnhancerBySpringCGLIB$$f2e0ca3b.checkRecords(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+10:57:34.310 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.32 is  timeout
+10:57:34.310 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+10:57:40.337 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.31 is  timeout
+10:57:40.338 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+10:57:41.402 default [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.AssertionError: Dispatch queue 'mqtt client' was not executing, (currently executing: '<not-dispatched>')
+	at org.fusesource.hawtdispatch.internal.SerialDispatchQueue.assertExecuting(SerialDispatchQueue.java:145)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:623)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:619)
+	at com.evolutivelabs.mqttmodbus.mqtt.CallBackClient.push(CallBackClient.java:55)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker.checkRecords(RecordChecker.java:108)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$FastClassBySpringCGLIB$$d691dd81.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$EnhancerBySpringCGLIB$$f2e0ca3b.checkRecords(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+10:57:46.345 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.32 is  timeout
+10:57:46.345 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+10:57:49.399 default [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.AssertionError: Dispatch queue 'mqtt client' was not executing, (currently executing: '<not-dispatched>')
+	at org.fusesource.hawtdispatch.internal.SerialDispatchQueue.assertExecuting(SerialDispatchQueue.java:145)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:623)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:619)
+	at com.evolutivelabs.mqttmodbus.mqtt.CallBackClient.push(CallBackClient.java:55)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker.checkRecords(RecordChecker.java:108)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$FastClassBySpringCGLIB$$d691dd81.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$EnhancerBySpringCGLIB$$f2e0ca3b.checkRecords(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+10:57:52.357 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.31 is  timeout
+10:57:52.357 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+10:57:57.398 default [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.AssertionError: Dispatch queue 'mqtt client' was not executing, (currently executing: '<not-dispatched>')
+	at org.fusesource.hawtdispatch.internal.SerialDispatchQueue.assertExecuting(SerialDispatchQueue.java:145)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:623)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:619)
+	at com.evolutivelabs.mqttmodbus.mqtt.CallBackClient.push(CallBackClient.java:55)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker.checkRecords(RecordChecker.java:108)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$FastClassBySpringCGLIB$$d691dd81.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$EnhancerBySpringCGLIB$$f2e0ca3b.checkRecords(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+10:57:58.374 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.32 is  timeout
+10:57:58.374 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+10:58:04.383 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.31 is  timeout
+10:58:04.384 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+10:58:05.394 default [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.AssertionError: Dispatch queue 'mqtt client' was not executing, (currently executing: '<not-dispatched>')
+	at org.fusesource.hawtdispatch.internal.SerialDispatchQueue.assertExecuting(SerialDispatchQueue.java:145)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:623)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:619)
+	at com.evolutivelabs.mqttmodbus.mqtt.CallBackClient.push(CallBackClient.java:55)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker.checkRecords(RecordChecker.java:108)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$FastClassBySpringCGLIB$$d691dd81.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$EnhancerBySpringCGLIB$$f2e0ca3b.checkRecords(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+10:58:10.398 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.31 is  timeout
+10:58:10.398 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+10:58:13.399 default [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.AssertionError: Dispatch queue 'mqtt client' was not executing, (currently executing: '<not-dispatched>')
+	at org.fusesource.hawtdispatch.internal.SerialDispatchQueue.assertExecuting(SerialDispatchQueue.java:145)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:623)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:619)
+	at com.evolutivelabs.mqttmodbus.mqtt.CallBackClient.push(CallBackClient.java:55)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker.checkRecords(RecordChecker.java:108)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$FastClassBySpringCGLIB$$d691dd81.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$EnhancerBySpringCGLIB$$f2e0ca3b.checkRecords(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+10:58:16.411 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.32 is  timeout
+10:58:16.412 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+10:58:21.394 default [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.AssertionError: Dispatch queue 'mqtt client' was not executing, (currently executing: '<not-dispatched>')
+	at org.fusesource.hawtdispatch.internal.SerialDispatchQueue.assertExecuting(SerialDispatchQueue.java:145)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:623)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:619)
+	at com.evolutivelabs.mqttmodbus.mqtt.CallBackClient.push(CallBackClient.java:55)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker.checkRecords(RecordChecker.java:108)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$FastClassBySpringCGLIB$$d691dd81.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$EnhancerBySpringCGLIB$$f2e0ca3b.checkRecords(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+10:58:22.418 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.34 is  timeout
+10:58:22.418 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+10:58:28.429 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.35 is  timeout
+10:58:28.429 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+10:58:29.400 default [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.AssertionError: Dispatch queue 'mqtt client' was not executing, (currently executing: '<not-dispatched>')
+	at org.fusesource.hawtdispatch.internal.SerialDispatchQueue.assertExecuting(SerialDispatchQueue.java:145)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:623)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:619)
+	at com.evolutivelabs.mqttmodbus.mqtt.CallBackClient.push(CallBackClient.java:55)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker.checkRecords(RecordChecker.java:108)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$FastClassBySpringCGLIB$$d691dd81.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$EnhancerBySpringCGLIB$$f2e0ca3b.checkRecords(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+10:58:34.442 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.31 is  timeout
+10:58:34.442 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+10:58:37.400 default [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.AssertionError: Dispatch queue 'mqtt client' was not executing, (currently executing: '<not-dispatched>')
+	at org.fusesource.hawtdispatch.internal.SerialDispatchQueue.assertExecuting(SerialDispatchQueue.java:145)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:623)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:619)
+	at com.evolutivelabs.mqttmodbus.mqtt.CallBackClient.push(CallBackClient.java:55)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker.checkRecords(RecordChecker.java:108)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$FastClassBySpringCGLIB$$d691dd81.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$EnhancerBySpringCGLIB$$f2e0ca3b.checkRecords(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+10:58:40.453 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.34 is  timeout
+10:58:40.453 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+10:58:45.401 default [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.AssertionError: Dispatch queue 'mqtt client' was not executing, (currently executing: '<not-dispatched>')
+	at org.fusesource.hawtdispatch.internal.SerialDispatchQueue.assertExecuting(SerialDispatchQueue.java:145)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:623)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:619)
+	at com.evolutivelabs.mqttmodbus.mqtt.CallBackClient.push(CallBackClient.java:55)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker.checkRecords(RecordChecker.java:108)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$FastClassBySpringCGLIB$$d691dd81.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$EnhancerBySpringCGLIB$$f2e0ca3b.checkRecords(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+10:58:46.471 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.35 is  timeout
+10:58:46.471 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+11:07:24.769 default [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.evolutivelabs.mqttmodbus.MqttmodbusApplicationTests], using SpringBootContextLoader
+11:07:24.769 default [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.evolutivelabs.mqttmodbus.MqttmodbusApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+11:07:24.769 default [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.evolutivelabs.mqttmodbus.MqttmodbusApplicationTests]: MqttmodbusApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:07:24.879 default [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.evolutivelabs.mqttmodbus.MqttmodbusApplication for test class com.evolutivelabs.mqttmodbus.MqttmodbusApplicationTests
+11:07:25.019 default [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+11:07:25.041 default [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@569bf9eb, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@61526469, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@274872f8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@76ba13c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@eb6449b, org.springframework.test.context.event.EventPublishingTestExecutionListener@7c351808, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@180e6ac4, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@42b64ab8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7e985ce9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2a39fe6a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@410ae9a3, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@319988b0]
+11:07:25.400 default [main] INFO  c.e.m.MqttmodbusApplicationTests - Starting MqttmodbusApplicationTests using Java 16.0.1 on RD-Young-NB with PID 6288 (started by user in C:\Users\user\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\mqttmodbus)
+11:07:25.416 default [main] INFO  c.e.m.MqttmodbusApplicationTests - No active profile set, falling back to default profiles: default
+11:07:26.597 default [main] INFO  c.e.m.MqttmodbusApplicationTests - Started MqttmodbusApplicationTests in 1.509 seconds (JVM running for 2.743)
+11:07:26.613 default [scheduling-1] INFO  c.e.m.service.PlcInfoService - do getPlcInfoList
+11:07:31.359 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.38
+11:07:31.374 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.38[Z@707bee85
+11:07:31.374 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:07:31.374 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.39
+11:07:31.390 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.39[Z@7a57def3
+11:07:31.390 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:07:31.671 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.41
+11:07:31.671 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.41[Z@7bc02db8
+11:07:31.671 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:07:31.687 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.42
+11:07:31.687 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.42[Z@1cbbc340
+11:07:31.687 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:07:31.702 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.43
+11:07:31.702 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.43[Z@331b0994
+11:07:31.702 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:07:31.718 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.44
+11:07:31.718 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.44[Z@77fff942
+11:07:31.718 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0100011000000000
+11:07:31.718 default [scheduling-1] INFO  c.e.m.scheduled.RecordChecker - json--->[{"id":"D12","type":"timeout","status":{"yellowBox":"0"}},{"id":"D11","type":"timeout","status":{"yellowBox":"0"}},{"id":"D10","type":"timeout","status":{"yellowBox":"0"}},{"id":"D09","type":"timeout","status":{"yellowBox":"0"}},{"id":"D08","type":"timeout","status":{"yellowBox":"0"}},{"id":"D07","type":"timeout","status":{"yellowBox":"0"}},{"id":"D06","type":"timeout","status":{"yellowBox":"0"}},{"id":"D05","type":"timeout","status":{"yellowBox":"0"}},{"id":"D04","type":"timeout","status":{"yellowBox":"0"}},{"id":"D03","type":"timeout","status":{"yellowBox":"0"}},{"id":"D02","type":"timeout","status":{"yellowBox":"0"}},{"id":"D01","type":"timeout","status":{"yellowBox":"0"}},{"id":"C08","type":"timeout","status":{"yellowBox":"0"}},{"id":"C07","type":"timeout","status":{"yellowBox":"0"}},{"id":"C06","type":"timeout","status":{"yellowBox":"0"}},{"id":"C05","type":"timeout","status":{"yellowBox":"0"}},{"id":"C04","type":"timeout","status":{"yellowBox":"0"}},{"id":"C03","type":"timeout","status":{"yellowBox":"0"}},{"id":"C02","type":"timeout","status":{"yellowBox":"0"}},{"id":"C01","type":"timeout","status":{"yellowBox":"0"}},{"id":"B08","status":{"yellowBox":"0"}},{"id":"B07","status":{"yellowBox":"0"}},{"id":"B06","status":{"yellowBox":"0"}},{"id":"B05","status":{"yellowBox":"0"}},{"id":"B04","status":{"yellowBox":"0"}},{"id":"B03","type":"timeout","status":{"yellowBox":"0"}},{"id":"B02","type":"timeout","status":{"yellowBox":"0"}},{"id":"B01","type":"timeout","status":{"yellowBox":"0"}},{"id":"A12","status":{"yellowBox":"0"}},{"id":"A11","status":{"yellowBox":"0"}},{"id":"A10","status":{"yellowBox":"0"}},{"id":"A09","status":{"yellowBox":"0"}},{"id":"A08","status":{"yellowBox":"0"}},{"id":"A07","status":{"yellowBox":"0"}},{"id":"A06","status":{"yellowBox":"0"}},{"id":"A05","status":{"yellowBox":"0"}},{"id":"A04","status":{"yellowBox":"0"}},{"id":"A03","status":{"yellowBox":"0"}},{"id":"A02","status":{"yellowBox":"2"}},{"id":"A01","status":{"yellowBox":"1"}}]
+11:07:31.733 default [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.AssertionError: Dispatch queue 'mqtt client' was not executing, (currently executing: '<not-dispatched>')
+	at org.fusesource.hawtdispatch.internal.SerialDispatchQueue.assertExecuting(SerialDispatchQueue.java:145)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:623)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:619)
+	at com.evolutivelabs.mqttmodbus.mqtt.CallBackClient.push(CallBackClient.java:55)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker.checkRecords(RecordChecker.java:108)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$FastClassBySpringCGLIB$$d691dd81.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$EnhancerBySpringCGLIB$$69343fc0.checkRecords(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+11:07:33.029 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.31 is  timeout
+11:07:33.029 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+11:07:38.349 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.38
+11:07:38.359 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.38[Z@7392cbed
+11:07:38.359 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:07:38.359 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.39
+11:07:38.359 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.39[Z@433d9c04
+11:07:38.359 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:07:39.044 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.32 is  timeout
+11:07:39.044 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+11:07:39.351 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.41
+11:07:39.361 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.41[Z@17e1023c
+11:07:39.361 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:07:39.361 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.42
+11:07:39.377 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.42[Z@5cd19bad
+11:07:39.377 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:07:39.377 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.43
+11:07:39.377 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.43[Z@39f9fe79
+11:07:39.377 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:07:39.393 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.44
+11:07:39.393 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.44[Z@160b88fe
+11:07:39.393 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0100011000000000
+11:07:39.393 default [scheduling-1] INFO  c.e.m.scheduled.RecordChecker - json--->[{"id":"D12","type":"timeout","status":{"yellowBox":"0"}},{"id":"D11","type":"timeout","status":{"yellowBox":"0"}},{"id":"D10","type":"timeout","status":{"yellowBox":"0"}},{"id":"D09","type":"timeout","status":{"yellowBox":"0"}},{"id":"D08","type":"timeout","status":{"yellowBox":"0"}},{"id":"D07","type":"timeout","status":{"yellowBox":"0"}},{"id":"D06","type":"timeout","status":{"yellowBox":"0"}},{"id":"D05","type":"timeout","status":{"yellowBox":"0"}},{"id":"D04","type":"timeout","status":{"yellowBox":"0"}},{"id":"D03","type":"timeout","status":{"yellowBox":"0"}},{"id":"D02","type":"timeout","status":{"yellowBox":"0"}},{"id":"D01","type":"timeout","status":{"yellowBox":"0"}},{"id":"C08","type":"timeout","status":{"yellowBox":"0"}},{"id":"C07","type":"timeout","status":{"yellowBox":"0"}},{"id":"C06","type":"timeout","status":{"yellowBox":"0"}},{"id":"C05","type":"timeout","status":{"yellowBox":"0"}},{"id":"C04","type":"timeout","status":{"yellowBox":"0"}},{"id":"C03","type":"timeout","status":{"yellowBox":"0"}},{"id":"C02","type":"timeout","status":{"yellowBox":"0"}},{"id":"C01","type":"timeout","status":{"yellowBox":"0"}},{"id":"B08","status":{"yellowBox":"0"}},{"id":"B07","status":{"yellowBox":"0"}},{"id":"B06","status":{"yellowBox":"0"}},{"id":"B05","status":{"yellowBox":"0"}},{"id":"B04","status":{"yellowBox":"0"}},{"id":"B03","type":"timeout","status":{"yellowBox":"0"}},{"id":"B02","type":"timeout","status":{"yellowBox":"0"}},{"id":"B01","type":"timeout","status":{"yellowBox":"0"}},{"id":"A12","status":{"yellowBox":"0"}},{"id":"A11","status":{"yellowBox":"0"}},{"id":"A10","status":{"yellowBox":"0"}},{"id":"A09","status":{"yellowBox":"0"}},{"id":"A08","status":{"yellowBox":"0"}},{"id":"A07","status":{"yellowBox":"0"}},{"id":"A06","status":{"yellowBox":"0"}},{"id":"A05","status":{"yellowBox":"0"}},{"id":"A04","status":{"yellowBox":"0"}},{"id":"A03","status":{"yellowBox":"0"}},{"id":"A02","status":{"yellowBox":"2"}},{"id":"A01","status":{"yellowBox":"1"}}]
+11:07:39.393 default [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.AssertionError: Dispatch queue 'mqtt client' was not executing, (currently executing: '<not-dispatched>')
+	at org.fusesource.hawtdispatch.internal.SerialDispatchQueue.assertExecuting(SerialDispatchQueue.java:145)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:623)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:619)
+	at com.evolutivelabs.mqttmodbus.mqtt.CallBackClient.push(CallBackClient.java:55)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker.checkRecords(RecordChecker.java:108)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$FastClassBySpringCGLIB$$d691dd81.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$EnhancerBySpringCGLIB$$69343fc0.checkRecords(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+11:07:45.075 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.31 is  timeout
+11:07:45.075 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+11:07:46.358 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.38
+11:07:46.365 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.38[Z@59386683
+11:07:46.365 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:07:46.365 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.39
+11:07:46.365 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.39[Z@2f4451eb
+11:07:46.365 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:07:47.358 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.41
+11:07:47.358 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.41[Z@65c26085
+11:07:47.358 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:07:47.358 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.42
+11:07:47.373 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.42[Z@5f9cfc11
+11:07:47.373 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:07:47.377 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.43
+11:07:47.377 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.43[Z@29ac692f
+11:07:47.377 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:07:47.377 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.44
+11:07:47.377 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.44[Z@3b0e5f9
+11:07:47.377 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0100011000000000
+11:07:47.377 default [scheduling-1] INFO  c.e.m.scheduled.RecordChecker - json--->[{"id":"D12","type":"timeout","status":{"yellowBox":"0"}},{"id":"D11","type":"timeout","status":{"yellowBox":"0"}},{"id":"D10","type":"timeout","status":{"yellowBox":"0"}},{"id":"D09","type":"timeout","status":{"yellowBox":"0"}},{"id":"D08","type":"timeout","status":{"yellowBox":"0"}},{"id":"D07","type":"timeout","status":{"yellowBox":"0"}},{"id":"D06","type":"timeout","status":{"yellowBox":"0"}},{"id":"D05","type":"timeout","status":{"yellowBox":"0"}},{"id":"D04","type":"timeout","status":{"yellowBox":"0"}},{"id":"D03","type":"timeout","status":{"yellowBox":"0"}},{"id":"D02","type":"timeout","status":{"yellowBox":"0"}},{"id":"D01","type":"timeout","status":{"yellowBox":"0"}},{"id":"C08","type":"timeout","status":{"yellowBox":"0"}},{"id":"C07","type":"timeout","status":{"yellowBox":"0"}},{"id":"C06","type":"timeout","status":{"yellowBox":"0"}},{"id":"C05","type":"timeout","status":{"yellowBox":"0"}},{"id":"C04","type":"timeout","status":{"yellowBox":"0"}},{"id":"C03","type":"timeout","status":{"yellowBox":"0"}},{"id":"C02","type":"timeout","status":{"yellowBox":"0"}},{"id":"C01","type":"timeout","status":{"yellowBox":"0"}},{"id":"B08","status":{"yellowBox":"0"}},{"id":"B07","status":{"yellowBox":"0"}},{"id":"B06","status":{"yellowBox":"0"}},{"id":"B05","status":{"yellowBox":"0"}},{"id":"B04","status":{"yellowBox":"0"}},{"id":"B03","type":"timeout","status":{"yellowBox":"0"}},{"id":"B02","type":"timeout","status":{"yellowBox":"0"}},{"id":"B01","type":"timeout","status":{"yellowBox":"0"}},{"id":"A12","status":{"yellowBox":"0"}},{"id":"A11","status":{"yellowBox":"0"}},{"id":"A10","status":{"yellowBox":"0"}},{"id":"A09","status":{"yellowBox":"0"}},{"id":"A08","status":{"yellowBox":"0"}},{"id":"A07","status":{"yellowBox":"0"}},{"id":"A06","status":{"yellowBox":"0"}},{"id":"A05","status":{"yellowBox":"0"}},{"id":"A04","status":{"yellowBox":"0"}},{"id":"A03","status":{"yellowBox":"0"}},{"id":"A02","status":{"yellowBox":"2"}},{"id":"A01","status":{"yellowBox":"1"}}]
+11:07:47.377 default [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.AssertionError: Dispatch queue 'mqtt client' was not executing, (currently executing: '<not-dispatched>')
+	at org.fusesource.hawtdispatch.internal.SerialDispatchQueue.assertExecuting(SerialDispatchQueue.java:145)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:623)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:619)
+	at com.evolutivelabs.mqttmodbus.mqtt.CallBackClient.push(CallBackClient.java:55)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker.checkRecords(RecordChecker.java:108)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$FastClassBySpringCGLIB$$d691dd81.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$EnhancerBySpringCGLIB$$69343fc0.checkRecords(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+11:07:51.097 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.32 is  timeout
+11:07:51.097 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+11:07:54.356 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.38
+11:07:54.356 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.38[Z@388876af
+11:07:54.356 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:07:54.371 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.39
+11:07:54.371 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.39[Z@72278580
+11:07:54.371 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:07:55.344 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.41
+11:07:55.354 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.41[Z@763c3910
+11:07:55.354 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:07:55.354 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.42
+11:07:55.354 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.42[Z@1565fbe2
+11:07:55.354 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:07:55.369 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.43
+11:07:55.369 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.43[Z@6e23daef
+11:07:55.369 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:07:55.385 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.44
+11:07:55.385 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.44[Z@2066492e
+11:07:55.385 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0100011000000000
+11:07:55.385 default [scheduling-1] INFO  c.e.m.scheduled.RecordChecker - json--->[{"id":"D12","type":"timeout","status":{"yellowBox":"0"}},{"id":"D11","type":"timeout","status":{"yellowBox":"0"}},{"id":"D10","type":"timeout","status":{"yellowBox":"0"}},{"id":"D09","type":"timeout","status":{"yellowBox":"0"}},{"id":"D08","type":"timeout","status":{"yellowBox":"0"}},{"id":"D07","type":"timeout","status":{"yellowBox":"0"}},{"id":"D06","type":"timeout","status":{"yellowBox":"0"}},{"id":"D05","type":"timeout","status":{"yellowBox":"0"}},{"id":"D04","type":"timeout","status":{"yellowBox":"0"}},{"id":"D03","type":"timeout","status":{"yellowBox":"0"}},{"id":"D02","type":"timeout","status":{"yellowBox":"0"}},{"id":"D01","type":"timeout","status":{"yellowBox":"0"}},{"id":"C08","type":"timeout","status":{"yellowBox":"0"}},{"id":"C07","type":"timeout","status":{"yellowBox":"0"}},{"id":"C06","type":"timeout","status":{"yellowBox":"0"}},{"id":"C05","type":"timeout","status":{"yellowBox":"0"}},{"id":"C04","type":"timeout","status":{"yellowBox":"0"}},{"id":"C03","type":"timeout","status":{"yellowBox":"0"}},{"id":"C02","type":"timeout","status":{"yellowBox":"0"}},{"id":"C01","type":"timeout","status":{"yellowBox":"0"}},{"id":"B08","status":{"yellowBox":"0"}},{"id":"B07","status":{"yellowBox":"0"}},{"id":"B06","status":{"yellowBox":"0"}},{"id":"B05","status":{"yellowBox":"0"}},{"id":"B04","status":{"yellowBox":"0"}},{"id":"B03","type":"timeout","status":{"yellowBox":"0"}},{"id":"B02","type":"timeout","status":{"yellowBox":"0"}},{"id":"B01","type":"timeout","status":{"yellowBox":"0"}},{"id":"A12","status":{"yellowBox":"0"}},{"id":"A11","status":{"yellowBox":"0"}},{"id":"A10","status":{"yellowBox":"0"}},{"id":"A09","status":{"yellowBox":"0"}},{"id":"A08","status":{"yellowBox":"0"}},{"id":"A07","status":{"yellowBox":"0"}},{"id":"A06","status":{"yellowBox":"0"}},{"id":"A05","status":{"yellowBox":"0"}},{"id":"A04","status":{"yellowBox":"0"}},{"id":"A03","status":{"yellowBox":"0"}},{"id":"A02","status":{"yellowBox":"2"}},{"id":"A01","status":{"yellowBox":"1"}}]
+11:07:55.385 default [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.AssertionError: Dispatch queue 'mqtt client' was not executing, (currently executing: '<not-dispatched>')
+	at org.fusesource.hawtdispatch.internal.SerialDispatchQueue.assertExecuting(SerialDispatchQueue.java:145)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:623)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:619)
+	at com.evolutivelabs.mqttmodbus.mqtt.CallBackClient.push(CallBackClient.java:55)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker.checkRecords(RecordChecker.java:108)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$FastClassBySpringCGLIB$$d691dd81.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$EnhancerBySpringCGLIB$$69343fc0.checkRecords(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+11:07:57.112 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.31 is  timeout
+11:07:57.112 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+11:08:02.357 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.38
+11:08:02.369 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.38[Z@d855772
+11:08:02.369 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:02.369 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.39
+11:08:02.369 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.39[Z@7d81008f
+11:08:02.369 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:03.133 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.32 is  timeout
+11:08:03.133 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+11:08:03.352 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.41
+11:08:03.352 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.41[Z@6f3c0928
+11:08:03.352 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:03.367 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.42
+11:08:03.373 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.42[Z@70a24d0c
+11:08:03.373 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:03.373 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.43
+11:08:03.389 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.43[Z@57bbaaad
+11:08:03.389 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:03.389 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.44
+11:08:03.389 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.44[Z@22cb4dad
+11:08:03.389 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0100011000000000
+11:08:03.389 default [scheduling-1] INFO  c.e.m.scheduled.RecordChecker - json--->[{"id":"D12","type":"timeout","status":{"yellowBox":"0"}},{"id":"D11","type":"timeout","status":{"yellowBox":"0"}},{"id":"D10","type":"timeout","status":{"yellowBox":"0"}},{"id":"D09","type":"timeout","status":{"yellowBox":"0"}},{"id":"D08","type":"timeout","status":{"yellowBox":"0"}},{"id":"D07","type":"timeout","status":{"yellowBox":"0"}},{"id":"D06","type":"timeout","status":{"yellowBox":"0"}},{"id":"D05","type":"timeout","status":{"yellowBox":"0"}},{"id":"D04","type":"timeout","status":{"yellowBox":"0"}},{"id":"D03","type":"timeout","status":{"yellowBox":"0"}},{"id":"D02","type":"timeout","status":{"yellowBox":"0"}},{"id":"D01","type":"timeout","status":{"yellowBox":"0"}},{"id":"C08","type":"timeout","status":{"yellowBox":"0"}},{"id":"C07","type":"timeout","status":{"yellowBox":"0"}},{"id":"C06","type":"timeout","status":{"yellowBox":"0"}},{"id":"C05","type":"timeout","status":{"yellowBox":"0"}},{"id":"C04","type":"timeout","status":{"yellowBox":"0"}},{"id":"C03","type":"timeout","status":{"yellowBox":"0"}},{"id":"C02","type":"timeout","status":{"yellowBox":"0"}},{"id":"C01","type":"timeout","status":{"yellowBox":"0"}},{"id":"B08","status":{"yellowBox":"0"}},{"id":"B07","status":{"yellowBox":"0"}},{"id":"B06","status":{"yellowBox":"0"}},{"id":"B05","status":{"yellowBox":"0"}},{"id":"B04","status":{"yellowBox":"0"}},{"id":"B03","type":"timeout","status":{"yellowBox":"0"}},{"id":"B02","type":"timeout","status":{"yellowBox":"0"}},{"id":"B01","type":"timeout","status":{"yellowBox":"0"}},{"id":"A12","status":{"yellowBox":"0"}},{"id":"A11","status":{"yellowBox":"0"}},{"id":"A10","status":{"yellowBox":"0"}},{"id":"A09","status":{"yellowBox":"0"}},{"id":"A08","status":{"yellowBox":"0"}},{"id":"A07","status":{"yellowBox":"0"}},{"id":"A06","status":{"yellowBox":"0"}},{"id":"A05","status":{"yellowBox":"0"}},{"id":"A04","status":{"yellowBox":"0"}},{"id":"A03","status":{"yellowBox":"0"}},{"id":"A02","status":{"yellowBox":"2"}},{"id":"A01","status":{"yellowBox":"1"}}]
+11:08:03.389 default [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.AssertionError: Dispatch queue 'mqtt client' was not executing, (currently executing: '<not-dispatched>')
+	at org.fusesource.hawtdispatch.internal.SerialDispatchQueue.assertExecuting(SerialDispatchQueue.java:145)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:623)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:619)
+	at com.evolutivelabs.mqttmodbus.mqtt.CallBackClient.push(CallBackClient.java:55)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker.checkRecords(RecordChecker.java:108)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$FastClassBySpringCGLIB$$d691dd81.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$EnhancerBySpringCGLIB$$69343fc0.checkRecords(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+11:08:07.397 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.38
+11:08:07.400 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.38[Z@4f198712
+11:08:07.400 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:07.400 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.39
+11:08:07.400 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.39[Z@45fda29e
+11:08:07.400 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:08.351 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.41
+11:08:08.351 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.41[Z@3d2329a9
+11:08:08.351 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:08.366 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.42
+11:08:08.366 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.42[Z@1b986e45
+11:08:08.366 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:08.397 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.43
+11:08:08.397 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.43[Z@183a5b33
+11:08:08.397 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:08.397 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.44
+11:08:08.397 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.44[Z@307bf3f8
+11:08:08.397 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0100011000000000
+11:08:08.397 default [scheduling-1] INFO  c.e.m.scheduled.RecordChecker - json--->[{"id":"D12","type":"timeout","status":{"yellowBox":"0"}},{"id":"D11","type":"timeout","status":{"yellowBox":"0"}},{"id":"D10","type":"timeout","status":{"yellowBox":"0"}},{"id":"D09","type":"timeout","status":{"yellowBox":"0"}},{"id":"D08","type":"timeout","status":{"yellowBox":"0"}},{"id":"D07","type":"timeout","status":{"yellowBox":"0"}},{"id":"D06","type":"timeout","status":{"yellowBox":"0"}},{"id":"D05","type":"timeout","status":{"yellowBox":"0"}},{"id":"D04","type":"timeout","status":{"yellowBox":"0"}},{"id":"D03","type":"timeout","status":{"yellowBox":"0"}},{"id":"D02","type":"timeout","status":{"yellowBox":"0"}},{"id":"D01","type":"timeout","status":{"yellowBox":"0"}},{"id":"C08","type":"timeout","status":{"yellowBox":"0"}},{"id":"C07","type":"timeout","status":{"yellowBox":"0"}},{"id":"C06","type":"timeout","status":{"yellowBox":"0"}},{"id":"C05","type":"timeout","status":{"yellowBox":"0"}},{"id":"C04","type":"timeout","status":{"yellowBox":"0"}},{"id":"C03","type":"timeout","status":{"yellowBox":"0"}},{"id":"C02","type":"timeout","status":{"yellowBox":"0"}},{"id":"C01","type":"timeout","status":{"yellowBox":"0"}},{"id":"B08","status":{"yellowBox":"0"}},{"id":"B07","status":{"yellowBox":"0"}},{"id":"B06","status":{"yellowBox":"0"}},{"id":"B05","status":{"yellowBox":"0"}},{"id":"B04","status":{"yellowBox":"0"}},{"id":"B03","type":"timeout","status":{"yellowBox":"0"}},{"id":"B02","type":"timeout","status":{"yellowBox":"0"}},{"id":"B01","type":"timeout","status":{"yellowBox":"0"}},{"id":"A12","status":{"yellowBox":"0"}},{"id":"A11","status":{"yellowBox":"0"}},{"id":"A10","status":{"yellowBox":"0"}},{"id":"A09","status":{"yellowBox":"0"}},{"id":"A08","status":{"yellowBox":"0"}},{"id":"A07","status":{"yellowBox":"0"}},{"id":"A06","status":{"yellowBox":"0"}},{"id":"A05","status":{"yellowBox":"0"}},{"id":"A04","status":{"yellowBox":"0"}},{"id":"A03","status":{"yellowBox":"0"}},{"id":"A02","status":{"yellowBox":"2"}},{"id":"A01","status":{"yellowBox":"1"}}]
+11:08:08.397 default [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.AssertionError: Dispatch queue 'mqtt client' was not executing, (currently executing: '<not-dispatched>')
+	at org.fusesource.hawtdispatch.internal.SerialDispatchQueue.assertExecuting(SerialDispatchQueue.java:145)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:623)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:619)
+	at com.evolutivelabs.mqttmodbus.mqtt.CallBackClient.push(CallBackClient.java:55)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker.checkRecords(RecordChecker.java:108)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$FastClassBySpringCGLIB$$d691dd81.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$EnhancerBySpringCGLIB$$69343fc0.checkRecords(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+11:08:09.161 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.31 is  timeout
+11:08:09.161 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+11:08:15.190 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.32 is  timeout
+11:08:15.190 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+11:08:15.349 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.38
+11:08:15.349 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.38[Z@4c0354ba
+11:08:15.349 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:15.365 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.39
+11:08:15.365 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.39[Z@6aa6dca
+11:08:15.365 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:16.345 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.41
+11:08:16.355 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.41[Z@69a1aad4
+11:08:16.355 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:16.371 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.42
+11:08:16.371 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.42[Z@72da45dd
+11:08:16.371 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:16.386 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.43
+11:08:16.386 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.43[Z@24aa79b8
+11:08:16.386 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:16.402 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.44
+11:08:16.402 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.44[Z@71bb84da
+11:08:16.402 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0100011000000000
+11:08:16.402 default [scheduling-1] INFO  c.e.m.scheduled.RecordChecker - json--->[{"id":"D12","type":"timeout","status":{"yellowBox":"0"}},{"id":"D11","type":"timeout","status":{"yellowBox":"0"}},{"id":"D10","type":"timeout","status":{"yellowBox":"0"}},{"id":"D09","type":"timeout","status":{"yellowBox":"0"}},{"id":"D08","type":"timeout","status":{"yellowBox":"0"}},{"id":"D07","type":"timeout","status":{"yellowBox":"0"}},{"id":"D06","type":"timeout","status":{"yellowBox":"0"}},{"id":"D05","type":"timeout","status":{"yellowBox":"0"}},{"id":"D04","type":"timeout","status":{"yellowBox":"0"}},{"id":"D03","type":"timeout","status":{"yellowBox":"0"}},{"id":"D02","type":"timeout","status":{"yellowBox":"0"}},{"id":"D01","type":"timeout","status":{"yellowBox":"0"}},{"id":"C08","type":"timeout","status":{"yellowBox":"0"}},{"id":"C07","type":"timeout","status":{"yellowBox":"0"}},{"id":"C06","type":"timeout","status":{"yellowBox":"0"}},{"id":"C05","type":"timeout","status":{"yellowBox":"0"}},{"id":"C04","type":"timeout","status":{"yellowBox":"0"}},{"id":"C03","type":"timeout","status":{"yellowBox":"0"}},{"id":"C02","type":"timeout","status":{"yellowBox":"0"}},{"id":"C01","type":"timeout","status":{"yellowBox":"0"}},{"id":"B08","status":{"yellowBox":"0"}},{"id":"B07","status":{"yellowBox":"0"}},{"id":"B06","status":{"yellowBox":"0"}},{"id":"B05","status":{"yellowBox":"0"}},{"id":"B04","status":{"yellowBox":"0"}},{"id":"B03","type":"timeout","status":{"yellowBox":"0"}},{"id":"B02","type":"timeout","status":{"yellowBox":"0"}},{"id":"B01","type":"timeout","status":{"yellowBox":"0"}},{"id":"A12","status":{"yellowBox":"0"}},{"id":"A11","status":{"yellowBox":"0"}},{"id":"A10","status":{"yellowBox":"0"}},{"id":"A09","status":{"yellowBox":"0"}},{"id":"A08","status":{"yellowBox":"0"}},{"id":"A07","status":{"yellowBox":"0"}},{"id":"A06","status":{"yellowBox":"0"}},{"id":"A05","status":{"yellowBox":"0"}},{"id":"A04","status":{"yellowBox":"0"}},{"id":"A03","status":{"yellowBox":"0"}},{"id":"A02","status":{"yellowBox":"2"}},{"id":"A01","status":{"yellowBox":"1"}}]
+11:08:16.402 default [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.AssertionError: Dispatch queue 'mqtt client' was not executing, (currently executing: '<not-dispatched>')
+	at org.fusesource.hawtdispatch.internal.SerialDispatchQueue.assertExecuting(SerialDispatchQueue.java:145)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:623)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:619)
+	at com.evolutivelabs.mqttmodbus.mqtt.CallBackClient.push(CallBackClient.java:55)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker.checkRecords(RecordChecker.java:108)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$FastClassBySpringCGLIB$$d691dd81.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$EnhancerBySpringCGLIB$$69343fc0.checkRecords(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+11:08:21.201 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.31 is  timeout
+11:08:21.202 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+11:08:23.353 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.38
+11:08:23.357 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.38[Z@35fc2ce6
+11:08:23.357 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:23.364 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.39
+11:08:23.369 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.39[Z@42ece458
+11:08:23.370 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:24.359 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.41
+11:08:24.374 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.41[Z@6f5c358b
+11:08:24.374 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:24.374 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.42
+11:08:24.374 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.42[Z@399bc6ac
+11:08:24.390 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:24.390 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.43
+11:08:24.390 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.43[Z@6d544665
+11:08:24.390 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:24.406 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.44
+11:08:24.406 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.44[Z@483fa1b3
+11:08:24.406 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0100011000000000
+11:08:24.406 default [scheduling-1] INFO  c.e.m.scheduled.RecordChecker - json--->[{"id":"D12","type":"timeout","status":{"yellowBox":"0"}},{"id":"D11","type":"timeout","status":{"yellowBox":"0"}},{"id":"D10","type":"timeout","status":{"yellowBox":"0"}},{"id":"D09","type":"timeout","status":{"yellowBox":"0"}},{"id":"D08","type":"timeout","status":{"yellowBox":"0"}},{"id":"D07","type":"timeout","status":{"yellowBox":"0"}},{"id":"D06","type":"timeout","status":{"yellowBox":"0"}},{"id":"D05","type":"timeout","status":{"yellowBox":"0"}},{"id":"D04","type":"timeout","status":{"yellowBox":"0"}},{"id":"D03","type":"timeout","status":{"yellowBox":"0"}},{"id":"D02","type":"timeout","status":{"yellowBox":"0"}},{"id":"D01","type":"timeout","status":{"yellowBox":"0"}},{"id":"C08","type":"timeout","status":{"yellowBox":"0"}},{"id":"C07","type":"timeout","status":{"yellowBox":"0"}},{"id":"C06","type":"timeout","status":{"yellowBox":"0"}},{"id":"C05","type":"timeout","status":{"yellowBox":"0"}},{"id":"C04","type":"timeout","status":{"yellowBox":"0"}},{"id":"C03","type":"timeout","status":{"yellowBox":"0"}},{"id":"C02","type":"timeout","status":{"yellowBox":"0"}},{"id":"C01","type":"timeout","status":{"yellowBox":"0"}},{"id":"B08","status":{"yellowBox":"0"}},{"id":"B07","status":{"yellowBox":"0"}},{"id":"B06","status":{"yellowBox":"0"}},{"id":"B05","status":{"yellowBox":"0"}},{"id":"B04","status":{"yellowBox":"0"}},{"id":"B03","type":"timeout","status":{"yellowBox":"0"}},{"id":"B02","type":"timeout","status":{"yellowBox":"0"}},{"id":"B01","type":"timeout","status":{"yellowBox":"0"}},{"id":"A12","status":{"yellowBox":"0"}},{"id":"A11","status":{"yellowBox":"0"}},{"id":"A10","status":{"yellowBox":"0"}},{"id":"A09","status":{"yellowBox":"0"}},{"id":"A08","status":{"yellowBox":"0"}},{"id":"A07","status":{"yellowBox":"0"}},{"id":"A06","status":{"yellowBox":"0"}},{"id":"A05","status":{"yellowBox":"0"}},{"id":"A04","status":{"yellowBox":"0"}},{"id":"A03","status":{"yellowBox":"0"}},{"id":"A02","status":{"yellowBox":"2"}},{"id":"A01","status":{"yellowBox":"1"}}]
+11:08:24.406 default [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.AssertionError: Dispatch queue 'mqtt client' was not executing, (currently executing: '<not-dispatched>')
+	at org.fusesource.hawtdispatch.internal.SerialDispatchQueue.assertExecuting(SerialDispatchQueue.java:145)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:623)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:619)
+	at com.evolutivelabs.mqttmodbus.mqtt.CallBackClient.push(CallBackClient.java:55)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker.checkRecords(RecordChecker.java:108)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$FastClassBySpringCGLIB$$d691dd81.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$EnhancerBySpringCGLIB$$69343fc0.checkRecords(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+11:08:27.231 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.31 is  timeout
+11:08:27.231 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+11:08:31.364 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.38
+11:08:31.366 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.38[Z@21883580
+11:08:31.366 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:31.366 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.39
+11:08:31.366 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.39[Z@6e2038ba
+11:08:31.366 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:32.362 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.41
+11:08:32.365 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.41[Z@5b272ef4
+11:08:32.365 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:32.372 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.42
+11:08:32.375 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.42[Z@14036b77
+11:08:32.376 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:32.383 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.43
+11:08:32.387 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.43[Z@74477842
+11:08:32.387 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:32.394 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.44
+11:08:32.397 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.44[Z@1b4d7b98
+11:08:32.398 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0100011000000000
+11:08:32.398 default [scheduling-1] INFO  c.e.m.scheduled.RecordChecker - json--->[{"id":"D12","type":"timeout","status":{"yellowBox":"0"}},{"id":"D11","type":"timeout","status":{"yellowBox":"0"}},{"id":"D10","type":"timeout","status":{"yellowBox":"0"}},{"id":"D09","type":"timeout","status":{"yellowBox":"0"}},{"id":"D08","type":"timeout","status":{"yellowBox":"0"}},{"id":"D07","type":"timeout","status":{"yellowBox":"0"}},{"id":"D06","type":"timeout","status":{"yellowBox":"0"}},{"id":"D05","type":"timeout","status":{"yellowBox":"0"}},{"id":"D04","type":"timeout","status":{"yellowBox":"0"}},{"id":"D03","type":"timeout","status":{"yellowBox":"0"}},{"id":"D02","type":"timeout","status":{"yellowBox":"0"}},{"id":"D01","type":"timeout","status":{"yellowBox":"0"}},{"id":"C08","type":"timeout","status":{"yellowBox":"0"}},{"id":"C07","type":"timeout","status":{"yellowBox":"0"}},{"id":"C06","type":"timeout","status":{"yellowBox":"0"}},{"id":"C05","type":"timeout","status":{"yellowBox":"0"}},{"id":"C04","type":"timeout","status":{"yellowBox":"0"}},{"id":"C03","type":"timeout","status":{"yellowBox":"0"}},{"id":"C02","type":"timeout","status":{"yellowBox":"0"}},{"id":"C01","type":"timeout","status":{"yellowBox":"0"}},{"id":"B08","status":{"yellowBox":"0"}},{"id":"B07","status":{"yellowBox":"0"}},{"id":"B06","status":{"yellowBox":"0"}},{"id":"B05","status":{"yellowBox":"0"}},{"id":"B04","status":{"yellowBox":"0"}},{"id":"B03","type":"timeout","status":{"yellowBox":"0"}},{"id":"B02","type":"timeout","status":{"yellowBox":"0"}},{"id":"B01","type":"timeout","status":{"yellowBox":"0"}},{"id":"A12","status":{"yellowBox":"0"}},{"id":"A11","status":{"yellowBox":"0"}},{"id":"A10","status":{"yellowBox":"0"}},{"id":"A09","status":{"yellowBox":"0"}},{"id":"A08","status":{"yellowBox":"0"}},{"id":"A07","status":{"yellowBox":"0"}},{"id":"A06","status":{"yellowBox":"0"}},{"id":"A05","status":{"yellowBox":"0"}},{"id":"A04","status":{"yellowBox":"0"}},{"id":"A03","status":{"yellowBox":"0"}},{"id":"A02","status":{"yellowBox":"2"}},{"id":"A01","status":{"yellowBox":"1"}}]
+11:08:32.398 default [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.AssertionError: Dispatch queue 'mqtt client' was not executing, (currently executing: '<not-dispatched>')
+	at org.fusesource.hawtdispatch.internal.SerialDispatchQueue.assertExecuting(SerialDispatchQueue.java:145)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:623)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:619)
+	at com.evolutivelabs.mqttmodbus.mqtt.CallBackClient.push(CallBackClient.java:55)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker.checkRecords(RecordChecker.java:108)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$FastClassBySpringCGLIB$$d691dd81.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$EnhancerBySpringCGLIB$$69343fc0.checkRecords(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+11:08:33.253 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.32 is  timeout
+11:08:33.254 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+11:08:35.578 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.38
+11:08:35.588 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.38[Z@76a83210
+11:08:35.588 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:35.588 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.39
+11:08:35.588 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.39[Z@3962d1ef
+11:08:35.588 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:36.346 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.41
+11:08:36.346 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.41[Z@4903fce0
+11:08:36.346 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:36.361 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.42
+11:08:36.361 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.42[Z@4dcc40a5
+11:08:36.361 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:36.377 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.43
+11:08:36.377 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.43[Z@7ac3c3be
+11:08:36.377 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:36.377 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.44
+11:08:36.377 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.44[Z@550188a0
+11:08:36.377 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0100011000000000
+11:08:36.377 default [scheduling-1] INFO  c.e.m.scheduled.RecordChecker - json--->[{"id":"D12","type":"timeout","status":{"yellowBox":"0"}},{"id":"D11","type":"timeout","status":{"yellowBox":"0"}},{"id":"D10","type":"timeout","status":{"yellowBox":"0"}},{"id":"D09","type":"timeout","status":{"yellowBox":"0"}},{"id":"D08","type":"timeout","status":{"yellowBox":"0"}},{"id":"D07","type":"timeout","status":{"yellowBox":"0"}},{"id":"D06","type":"timeout","status":{"yellowBox":"0"}},{"id":"D05","type":"timeout","status":{"yellowBox":"0"}},{"id":"D04","type":"timeout","status":{"yellowBox":"0"}},{"id":"D03","type":"timeout","status":{"yellowBox":"0"}},{"id":"D02","type":"timeout","status":{"yellowBox":"0"}},{"id":"D01","type":"timeout","status":{"yellowBox":"0"}},{"id":"C08","type":"timeout","status":{"yellowBox":"0"}},{"id":"C07","type":"timeout","status":{"yellowBox":"0"}},{"id":"C06","type":"timeout","status":{"yellowBox":"0"}},{"id":"C05","type":"timeout","status":{"yellowBox":"0"}},{"id":"C04","type":"timeout","status":{"yellowBox":"0"}},{"id":"C03","type":"timeout","status":{"yellowBox":"0"}},{"id":"C02","type":"timeout","status":{"yellowBox":"0"}},{"id":"C01","type":"timeout","status":{"yellowBox":"0"}},{"id":"B08","status":{"yellowBox":"0"}},{"id":"B07","status":{"yellowBox":"0"}},{"id":"B06","status":{"yellowBox":"0"}},{"id":"B05","status":{"yellowBox":"0"}},{"id":"B04","status":{"yellowBox":"0"}},{"id":"B03","type":"timeout","status":{"yellowBox":"0"}},{"id":"B02","type":"timeout","status":{"yellowBox":"0"}},{"id":"B01","type":"timeout","status":{"yellowBox":"0"}},{"id":"A12","status":{"yellowBox":"0"}},{"id":"A11","status":{"yellowBox":"0"}},{"id":"A10","status":{"yellowBox":"0"}},{"id":"A09","status":{"yellowBox":"0"}},{"id":"A08","status":{"yellowBox":"0"}},{"id":"A07","status":{"yellowBox":"0"}},{"id":"A06","status":{"yellowBox":"0"}},{"id":"A05","status":{"yellowBox":"0"}},{"id":"A04","status":{"yellowBox":"0"}},{"id":"A03","status":{"yellowBox":"0"}},{"id":"A02","status":{"yellowBox":"2"}},{"id":"A01","status":{"yellowBox":"1"}}]
+11:08:36.377 default [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.AssertionError: Dispatch queue 'mqtt client' was not executing, (currently executing: '<not-dispatched>')
+	at org.fusesource.hawtdispatch.internal.SerialDispatchQueue.assertExecuting(SerialDispatchQueue.java:145)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:623)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:619)
+	at com.evolutivelabs.mqttmodbus.mqtt.CallBackClient.push(CallBackClient.java:55)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker.checkRecords(RecordChecker.java:108)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$FastClassBySpringCGLIB$$d691dd81.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$EnhancerBySpringCGLIB$$69343fc0.checkRecords(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+11:08:39.263 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.34 is  timeout
+11:08:39.263 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+11:08:43.346 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.38
+11:08:43.354 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.38[Z@2cd52bb7
+11:08:43.354 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:43.354 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.39
+11:08:43.354 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.39[Z@486fd3a0
+11:08:43.354 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:44.348 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.41
+11:08:44.360 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.41[Z@11720685
+11:08:44.360 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:44.360 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.42
+11:08:44.360 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.42[Z@e8e8dcd
+11:08:44.360 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:44.375 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.43
+11:08:44.375 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.43[Z@b038738
+11:08:44.375 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:44.375 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.44
+11:08:44.391 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.44[Z@3d47b72b
+11:08:44.391 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0100011000000000
+11:08:44.391 default [scheduling-1] INFO  c.e.m.scheduled.RecordChecker - json--->[{"id":"D12","type":"timeout","status":{"yellowBox":"0"}},{"id":"D11","type":"timeout","status":{"yellowBox":"0"}},{"id":"D10","type":"timeout","status":{"yellowBox":"0"}},{"id":"D09","type":"timeout","status":{"yellowBox":"0"}},{"id":"D08","type":"timeout","status":{"yellowBox":"0"}},{"id":"D07","type":"timeout","status":{"yellowBox":"0"}},{"id":"D06","type":"timeout","status":{"yellowBox":"0"}},{"id":"D05","type":"timeout","status":{"yellowBox":"0"}},{"id":"D04","type":"timeout","status":{"yellowBox":"0"}},{"id":"D03","type":"timeout","status":{"yellowBox":"0"}},{"id":"D02","type":"timeout","status":{"yellowBox":"0"}},{"id":"D01","type":"timeout","status":{"yellowBox":"0"}},{"id":"C08","type":"timeout","status":{"yellowBox":"0"}},{"id":"C07","type":"timeout","status":{"yellowBox":"0"}},{"id":"C06","type":"timeout","status":{"yellowBox":"0"}},{"id":"C05","type":"timeout","status":{"yellowBox":"0"}},{"id":"C04","type":"timeout","status":{"yellowBox":"0"}},{"id":"C03","type":"timeout","status":{"yellowBox":"0"}},{"id":"C02","type":"timeout","status":{"yellowBox":"0"}},{"id":"C01","type":"timeout","status":{"yellowBox":"0"}},{"id":"B08","status":{"yellowBox":"0"}},{"id":"B07","status":{"yellowBox":"0"}},{"id":"B06","status":{"yellowBox":"0"}},{"id":"B05","status":{"yellowBox":"0"}},{"id":"B04","status":{"yellowBox":"0"}},{"id":"B03","type":"timeout","status":{"yellowBox":"0"}},{"id":"B02","type":"timeout","status":{"yellowBox":"0"}},{"id":"B01","type":"timeout","status":{"yellowBox":"0"}},{"id":"A12","status":{"yellowBox":"0"}},{"id":"A11","status":{"yellowBox":"0"}},{"id":"A10","status":{"yellowBox":"0"}},{"id":"A09","status":{"yellowBox":"0"}},{"id":"A08","status":{"yellowBox":"0"}},{"id":"A07","status":{"yellowBox":"0"}},{"id":"A06","status":{"yellowBox":"0"}},{"id":"A05","status":{"yellowBox":"0"}},{"id":"A04","status":{"yellowBox":"0"}},{"id":"A03","status":{"yellowBox":"0"}},{"id":"A02","status":{"yellowBox":"2"}},{"id":"A01","status":{"yellowBox":"1"}}]
+11:08:44.391 default [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.AssertionError: Dispatch queue 'mqtt client' was not executing, (currently executing: '<not-dispatched>')
+	at org.fusesource.hawtdispatch.internal.SerialDispatchQueue.assertExecuting(SerialDispatchQueue.java:145)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:623)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:619)
+	at com.evolutivelabs.mqttmodbus.mqtt.CallBackClient.push(CallBackClient.java:55)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker.checkRecords(RecordChecker.java:108)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$FastClassBySpringCGLIB$$d691dd81.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$EnhancerBySpringCGLIB$$69343fc0.checkRecords(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+11:08:45.276 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.35 is  timeout
+11:08:45.276 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+11:08:49.365 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.38
+11:08:49.367 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.38[Z@461ada80
+11:08:49.367 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:49.367 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.39
+11:08:49.367 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.39[Z@51b7bf3c
+11:08:49.367 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:50.354 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.41
+11:08:50.354 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.41[Z@5149a4ce
+11:08:50.354 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:50.369 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.42
+11:08:50.376 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.42[Z@6bb2f757
+11:08:50.376 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:50.376 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.43
+11:08:50.376 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.43[Z@7b6cee7b
+11:08:50.376 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:50.392 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.44
+11:08:50.392 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.44[Z@17cef075
+11:08:50.392 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0100011000000000
+11:08:50.392 default [scheduling-1] INFO  c.e.m.scheduled.RecordChecker - json--->[{"id":"D12","type":"timeout","status":{"yellowBox":"0"}},{"id":"D11","type":"timeout","status":{"yellowBox":"0"}},{"id":"D10","type":"timeout","status":{"yellowBox":"0"}},{"id":"D09","type":"timeout","status":{"yellowBox":"0"}},{"id":"D08","type":"timeout","status":{"yellowBox":"0"}},{"id":"D07","type":"timeout","status":{"yellowBox":"0"}},{"id":"D06","type":"timeout","status":{"yellowBox":"0"}},{"id":"D05","type":"timeout","status":{"yellowBox":"0"}},{"id":"D04","type":"timeout","status":{"yellowBox":"0"}},{"id":"D03","type":"timeout","status":{"yellowBox":"0"}},{"id":"D02","type":"timeout","status":{"yellowBox":"0"}},{"id":"D01","type":"timeout","status":{"yellowBox":"0"}},{"id":"C08","type":"timeout","status":{"yellowBox":"0"}},{"id":"C07","type":"timeout","status":{"yellowBox":"0"}},{"id":"C06","type":"timeout","status":{"yellowBox":"0"}},{"id":"C05","type":"timeout","status":{"yellowBox":"0"}},{"id":"C04","type":"timeout","status":{"yellowBox":"0"}},{"id":"C03","type":"timeout","status":{"yellowBox":"0"}},{"id":"C02","type":"timeout","status":{"yellowBox":"0"}},{"id":"C01","type":"timeout","status":{"yellowBox":"0"}},{"id":"B08","status":{"yellowBox":"0"}},{"id":"B07","status":{"yellowBox":"0"}},{"id":"B06","status":{"yellowBox":"0"}},{"id":"B05","status":{"yellowBox":"0"}},{"id":"B04","status":{"yellowBox":"0"}},{"id":"B03","type":"timeout","status":{"yellowBox":"0"}},{"id":"B02","type":"timeout","status":{"yellowBox":"0"}},{"id":"B01","type":"timeout","status":{"yellowBox":"0"}},{"id":"A12","status":{"yellowBox":"0"}},{"id":"A11","status":{"yellowBox":"0"}},{"id":"A10","status":{"yellowBox":"0"}},{"id":"A09","status":{"yellowBox":"0"}},{"id":"A08","status":{"yellowBox":"0"}},{"id":"A07","status":{"yellowBox":"0"}},{"id":"A06","status":{"yellowBox":"0"}},{"id":"A05","status":{"yellowBox":"0"}},{"id":"A04","status":{"yellowBox":"0"}},{"id":"A03","status":{"yellowBox":"0"}},{"id":"A02","status":{"yellowBox":"2"}},{"id":"A01","status":{"yellowBox":"1"}}]
+11:08:50.392 default [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.AssertionError: Dispatch queue 'mqtt client' was not executing, (currently executing: '<not-dispatched>')
+	at org.fusesource.hawtdispatch.internal.SerialDispatchQueue.assertExecuting(SerialDispatchQueue.java:145)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:623)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:619)
+	at com.evolutivelabs.mqttmodbus.mqtt.CallBackClient.push(CallBackClient.java:55)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker.checkRecords(RecordChecker.java:108)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$FastClassBySpringCGLIB$$d691dd81.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$EnhancerBySpringCGLIB$$69343fc0.checkRecords(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+11:08:51.295 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.31 is  timeout
+11:08:51.295 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+11:08:57.315 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.34 is  timeout
+11:08:57.315 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
+11:08:57.351 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.38
+11:08:57.353 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.38[Z@77490ff9
+11:08:57.354 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:57.359 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.39
+11:08:57.362 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.39[Z@6b4a285d
+11:08:57.363 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:58.361 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.41
+11:08:58.365 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.41[Z@be73019
+11:08:58.365 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:58.370 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.42
+11:08:58.373 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.42[Z@6af7b91a
+11:08:58.373 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:58.378 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.43
+11:08:58.381 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.43[Z@55fe557a
+11:08:58.381 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0000000000000000
+11:08:58.387 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - Connection OK 10.63.1.44
+11:08:58.390 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value 10.63.1.44[Z@6fcc8758
+11:08:58.390 default [scheduling-1] INFO  c.e.mqttmodbus.modbus.ModBusUtil - get value done0100011000000000
+11:08:58.390 default [scheduling-1] INFO  c.e.m.scheduled.RecordChecker - json--->[{"id":"D12","type":"timeout","status":{"yellowBox":"0"}},{"id":"D11","type":"timeout","status":{"yellowBox":"0"}},{"id":"D10","type":"timeout","status":{"yellowBox":"0"}},{"id":"D09","type":"timeout","status":{"yellowBox":"0"}},{"id":"D08","type":"timeout","status":{"yellowBox":"0"}},{"id":"D07","type":"timeout","status":{"yellowBox":"0"}},{"id":"D06","type":"timeout","status":{"yellowBox":"0"}},{"id":"D05","type":"timeout","status":{"yellowBox":"0"}},{"id":"D04","type":"timeout","status":{"yellowBox":"0"}},{"id":"D03","type":"timeout","status":{"yellowBox":"0"}},{"id":"D02","type":"timeout","status":{"yellowBox":"0"}},{"id":"D01","type":"timeout","status":{"yellowBox":"0"}},{"id":"C08","type":"timeout","status":{"yellowBox":"0"}},{"id":"C07","type":"timeout","status":{"yellowBox":"0"}},{"id":"C06","type":"timeout","status":{"yellowBox":"0"}},{"id":"C05","type":"timeout","status":{"yellowBox":"0"}},{"id":"C04","type":"timeout","status":{"yellowBox":"0"}},{"id":"C03","type":"timeout","status":{"yellowBox":"0"}},{"id":"C02","type":"timeout","status":{"yellowBox":"0"}},{"id":"C01","type":"timeout","status":{"yellowBox":"0"}},{"id":"B08","status":{"yellowBox":"0"}},{"id":"B07","status":{"yellowBox":"0"}},{"id":"B06","status":{"yellowBox":"0"}},{"id":"B05","status":{"yellowBox":"0"}},{"id":"B04","status":{"yellowBox":"0"}},{"id":"B03","type":"timeout","status":{"yellowBox":"0"}},{"id":"B02","type":"timeout","status":{"yellowBox":"0"}},{"id":"B01","type":"timeout","status":{"yellowBox":"0"}},{"id":"A12","status":{"yellowBox":"0"}},{"id":"A11","status":{"yellowBox":"0"}},{"id":"A10","status":{"yellowBox":"0"}},{"id":"A09","status":{"yellowBox":"0"}},{"id":"A08","status":{"yellowBox":"0"}},{"id":"A07","status":{"yellowBox":"0"}},{"id":"A06","status":{"yellowBox":"0"}},{"id":"A05","status":{"yellowBox":"0"}},{"id":"A04","status":{"yellowBox":"0"}},{"id":"A03","status":{"yellowBox":"0"}},{"id":"A02","status":{"yellowBox":"2"}},{"id":"A01","status":{"yellowBox":"1"}}]
+11:08:58.391 default [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.AssertionError: Dispatch queue 'mqtt client' was not executing, (currently executing: '<not-dispatched>')
+	at org.fusesource.hawtdispatch.internal.SerialDispatchQueue.assertExecuting(SerialDispatchQueue.java:145)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:623)
+	at org.fusesource.mqtt.client.CallbackConnection.publish(CallbackConnection.java:619)
+	at com.evolutivelabs.mqttmodbus.mqtt.CallBackClient.push(CallBackClient.java:55)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker.checkRecords(RecordChecker.java:108)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$FastClassBySpringCGLIB$$d691dd81.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.evolutivelabs.mqttmodbus.scheduled.RecordChecker$$EnhancerBySpringCGLIB$$69343fc0.checkRecords(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+11:09:03.321 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - 10.63.1.35 is  timeout
+11:09:03.322 default [main] ERROR c.e.mqttmodbus.modbus.ModBusUtil - java.net.SocketTimeoutException: Connect timed out
